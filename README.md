@@ -1,4 +1,4 @@
-# Desenvolvimento de Jogo da Forca em Python
+# Jogo da Forca em Python
 ## Projeto de conclusão do módulo introdutório do curso de Python da DSA
 <div align="justify">
 
