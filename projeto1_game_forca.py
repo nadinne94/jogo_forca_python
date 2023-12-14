@@ -65,5 +65,5 @@ def game():
 
 if __name__ == "__main__":
     game()
-    print("\nMeu primeiro jogo em Python. :)\n")
+    print("\nParabéns. Você está aprendendo programação em Python com a DSA. :)\n")
         
