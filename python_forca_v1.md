@@ -100,8 +100,6 @@ if __name__ == "__main__":
     game()
     print("\nMeu primeiro jogo em Python :)\n")
 ```
-### Conclusões Finais:
-Este projeto foi uma introdução emocionante ao desenvolvimento de jogos em Python. Espero que este artigo tenha proporcionado uma compreensão clara do código e incentivado a exploração contínua no vasto mundo da programação. Divirta-se jogando forca em Python!
 </div>
 
 
