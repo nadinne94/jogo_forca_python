@@ -1,8 +1,9 @@
 # Jogo da Forca aplicando Programação Orientada a Objetos
+<div align='justify'>
 
 A nova versão do jogo da forca foi elaborada explorando os conceitos de Programação Orientada a Objetos.
 
-## Importações e Função para Limpar a Tela:
+### Importações e Função para Limpar a Tela:
 Comecei importando as bibliotecas necessárias e criando uma função chamada `limpa_tela()` para garantir uma interface mais limpa a cada execução do jogo. Isso proporcionou um visual mais organizado.
 
 ```python
@@ -17,7 +18,7 @@ def limpa_tela():
         _ = system('clear')
 ```
 
-## Tabuleiro do Jogo:
+### Tabuleiro do Jogo:
 Defini um tabuleiro com representações visuais da forca em diferentes estágios. Isso adiciona um toque interativo e visual ao jogo.
 
 ```python
@@ -35,7 +36,7 @@ board = ['''
 =========''']
 ```
 
-## Classe Hangman:
+### Classe Hangman:
 Em seguida, criei a classe `Hangman` que encapsula a lógica do jogo. O método construtor `__init__` inicializa a palavra a ser adivinhada, as letras erradas e as letras escolhidas.
 
 ```python
@@ -46,7 +47,7 @@ class Hangman:
         self.letras_escolhidas = []
 ```
 
-## Método para Adivinhar a Letra:
+### Método para Adivinhar a Letra:
 Implementei o método `guess()` para verificar se a letra escolhida está na palavra. As letras são adicionadas às listas apropriadas, e o método retorna True ou False.
 
 ```python
@@ -60,7 +61,7 @@ Implementei o método `guess()` para verificar se a letra escolhida está na pal
         return True
 ```
 
-## Métodos para Verificar o Status do Jogo:
+### Métodos para Verificar o Status do Jogo:
 Implementei métodos como `hangman_over()`, `hangman_won()`, e `hide_palavra()` para verificar se o jogo terminou, se o jogador venceu, e para ocultar as letras ainda não adivinhadas.
 
 ```python
@@ -80,7 +81,7 @@ Implementei métodos como `hangman_over()`, `hangman_won()`, e `hide_palavra()` 
         return rtn
 ```
 
-## Método para Imprimir o Status do Jogo:
+### Método para Imprimir o Status do Jogo:
 O método `print_game_status()` imprime o tabuleiro, a palavra oculta e as letras escolhidas/erradas na tela.
 
 ```python
@@ -97,7 +98,7 @@ O método `print_game_status()` imprime o tabuleiro, a palavra oculta e as letra
         print()
 ```
 
-## Função para Palavra Aleatória:
+### Função para Palavra Aleatória:
 Criei uma função `rand_palavra()` que retorna uma palavra aleatória da lista.
 
 ```python
@@ -107,7 +108,7 @@ def rand_palavra():
     return palavra
 ```
 
-## Função Principal (main):
+### Função Principal (main):
 Na função principal `main()`, iniciei o jogo, interagindo com o usuário para adivinhar a palavra até que o jogo termine.
 
 ```python
@@ -133,3 +134,4 @@ def main():
 if __name__ == '__main__':
     main()
 ```
+</div>
